@@ -1,0 +1,8 @@
+extends base.pug
+
+block content
+
+    form(action="/delete-result" , method="post")
+    
+        input(type="text", name="ID", placeholder = "ID")
+        input(type="submit" name="Delete")

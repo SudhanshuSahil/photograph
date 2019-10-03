@@ -1,0 +1,15 @@
+extends base.pug
+
+block content
+
+    form(action="/post-result" , method="post")
+    
+        input(type="text", name="name", placeholder = "name")
+        input(type="text", name="id", placeholder = "ID")
+        input(type="text", name="bio", placeholder = "bio")
+        input(type="text", name="img", placeholder = "img")
+        input(type="text", name="link", placeholder = "link")
+        input(type="text", name="desc", placeholder = "desc")
+        input(type="text", name="hl", placeholder = "hl")
+        input(type="text", name="active", placeholder = "active")
+        input(type="submit" name="Done")
